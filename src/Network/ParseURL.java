@@ -9,7 +9,6 @@ public class ParseURL {
 		URL opinion = null;
 		URL homePage = null;
 
-		// http://dgit.or.kr/SUB/?ctId=15
 		try {
 			homePage = new URL("http://dgit.or.kr");
 			opinion = new URL(homePage, "SUB/?ctId=15");
