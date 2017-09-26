@@ -47,9 +47,9 @@ public class ServerEx {
 			try {
 				socket.close();
 				listener.close();
-				out.close();
-				in.close();
-				stIn.close();
+				//out.close();
+				//in.close();
+				//stIn.close();
 			} catch (IOException e) {
 				e.printStackTrace();
 			}	
